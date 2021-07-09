@@ -9,10 +9,11 @@ body {
   background-color: rgb(87, 49, 190);
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 .buton {
-  position: relative;
+  position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
@@ -23,4 +24,23 @@ body {
   border: 2px solid aliceblue;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 190px;
+  background-color: aqua;
+  border-radius: 10px;
+  border: 2px solid #000;
+  z-index: 2;
+  padding: 5px;
+  display: none;
+}
+
+.show {
+  display: block;
 }
