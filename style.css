@@ -1,0 +1,26 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: rgb(87, 49, 190);
+  width: 100vw;
+  height: 100vh;
+}
+
+.buton {
+  position: relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 40px;
+  background-color: green;
+  color:aliceblue;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
